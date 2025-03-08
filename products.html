@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Products | furni.shop</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="index.html" class="logo">furni.shop</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav__actions">
+        <div class="nav__search" id="nav-search">
+          <input type="text" placeholder="Search" />
+          <span><i class="ri-search-2-line"></i></span>
+        </div>
+        <div class="nav__cart">
+          <a href="cart.html">
+            <i class="ri-shopping-cart-line"></i>
+            <span class="cart__count">0</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="section__container product__container">
+      <h2 class="section__header">Products</h2>
+      <div class="product__grid">
+        <div class="product__card">
+          <h4>Stackable Chair</h4>
+          <p>$87.00</p>
+          <img src="assets/product-1.png" alt="product" />
+          <button class="add__to__cart" data-id="1" data-name="Stackable Chair" data-price="87.00" data-img="assets/product-1.png">Add to Cart</button>
+        </div>
+        <div class="product__card">
+          <h4>Lamp Tool</h4>
+          <p>$35.00</p>
+          <img src="assets/product-2.png" alt="product" />
+          <button class="add__to__cart" data-id="2" data-name="Lamp Tool" data-price="35.00" data-img="assets/product-2.png">Add to Cart</button>
+        </div>
+        <div class="product__card">
+          <h4>Dining Chair</h4>
+          <p>$55.00</p>
+          <img src="assets/product-3.png" alt="product" />
+          <button class="add__to__cart" data-id="3" data-name="Dining Chair" data-price="55.00" data-img="assets/product-3.png">Add to Cart</button>
+        </div>
+        <div class="product__card">
+          <h4>Hand Base Lamp</h4>
+          <p>$35.00</p>
+          <img src="assets/product-4.png" alt="product" />
+          <button class="add__to__cart" data-id="4" data-name="Hand Base Lamp" data-price="35.00" data-img="assets/product-4.png">Add to Cart</button>
+        </div>
+        <div class="product__card">
+          <h4>Stylish Chair</h4>
+          <p>$45.00</p>
+          <img src="assets/product-5.png" alt="product" />
+          <button class="add__to__cart" data-id="5" data-name="Stylish Chair" data-price="45.00" data-img="assets/product-5.png">Add to Cart</button>
+        </div>
+        <div class="product__card">
+          <h4>Vintage Chair</h4>
+          <p>$65.00</p>
+          <img src="assets/product-6.png" alt="product" />
+          <button class="add__to__cart" data-id="6" data-name="Vintage Chair" data-price="65.00" data-img="assets/product-6.png">Add to Cart</button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="footer__logo">
+            <a href="index.html" class="logo">furni.shop</a>
+          </div>
+          <p>
+            Join us in transforming your living spaces with furniture that
+            blends elegance and practicality seamlessly.
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-pinterest-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <ul class="footer__links">
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Payrol</a></li>
+            <li><a href="#">Library</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Help Center</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Resources</h4>
+          <ul class="footer__links">
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQs</a></li>
+            <li><a href="#">Contact Support</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Support</h4>
+          <ul class="footer__links">
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Affiliates</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Cancelation Policy</a></li>
+            <li><a href="#">Security</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Web Design Mastery. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script src="cart.js"></script>
+  </body>
+</html>

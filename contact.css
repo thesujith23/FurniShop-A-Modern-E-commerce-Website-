@@ -1,0 +1,173 @@
+/* Contact Page Styling */
+.contact__container {
+    padding: 2rem 1rem;
+  }
+  
+  .contact__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .contact__info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .contact__card {
+    background-color: var(--background);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+  }
+  
+  .contact__card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .contact__card span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .contact__card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+    font-weight: 600;
+  }
+  
+  .contact__card p {
+    color: var(--text-dark);
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+  }
+  
+  .contact__card p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .contact__form {
+    background-color: var(--background);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .form__group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form__group input,
+  .form__group textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid var(--text-light-2);
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form__group input:focus,
+  .form__group textarea:focus {
+    outline: none;
+    border-color: var(--primary-color);
+  }
+  
+  .form__group textarea {
+    resize: vertical;
+  }
+  
+  /* Fix for navigation layout */
+  .nav__actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav__search {
+    position: relative;
+    margin-right: 15px;
+  }
+  
+  /* Client testimonials section */
+  .client__container {
+    background-color: var(--background-alt);
+    padding: 3rem 1rem;
+    margin-top: 3rem;
+  }
+  
+  .client__content {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .section__description {
+    color: var(--text-light);
+    margin-bottom: 2rem;
+  }
+  
+  .client__card {
+    background-color: var(--background);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: left;
+    margin: 1rem 0.5rem;
+  }
+  
+  .client__card img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .client__card p {
+    font-style: italic;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+  
+  .client__card h4 {
+    font-weight: 600;
+    margin-bottom: 0.3rem;
+  }
+  
+  .client__card h5 {
+    color: var(--primary-color);
+    font-weight: 500;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 992px) {
+    .contact__grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .contact__info {
+      grid-template-columns: 1fr;
+    }
+    
+    .client__card {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
