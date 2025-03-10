@@ -1,5 +1,5 @@
-# FurniShop – A Modern E-commerce Website 🛒
-FurniShop is a fully responsive e-commerce platform built using HTML, CSS, JavaScript, and Tailwind CSS. The website provides a seamless shopping experience with a modern UI, interactive cart functionality, and an easy-to-navigate product catalog.
+# Furnishly – A Modern E-commerce Website 🛒
+Furnishly is a fully responsive e-commerce platform built using HTML, CSS, JavaScript, and Tailwind CSS. The website provides a seamless shopping experience with a modern UI, interactive cart functionality, and an easy-to-navigate product catalog.
 
 🚀 Features
 ✅ Home Page – Showcases featured products and deals
